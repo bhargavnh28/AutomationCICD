@@ -19,6 +19,8 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+//Adding new commands
 		String productName = "ZARA COAT 3";
 		String countryName = "India";
 		String productName2 = "ADIDAS ORIGINAL";
