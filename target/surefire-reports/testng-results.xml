@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-24T22:50:39 IST" name="Suite" finished-at="2024-01-24T22:51:28 IST" duration-ms="49143">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" name="loginErrorValidation" class="rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest"/>
+        <method signature="ErrorValidationsTest.submitorder()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" name="submitorder" class="rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="PurchaseOrder">
+        <method signature="SubmitOrderTest.submitorder(java.util.HashMap)[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" name="submitorder" class="rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest"/>
+      </group> <!-- PurchaseOrder -->
+    </groups>
+    <test started-at="2024-01-24T22:50:39 IST" name="ErrorValidations" finished-at="2024-01-24T22:51:21 IST" duration-ms="42051">
+      <class name="rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" started-at="2024-01-24T22:50:39 IST" name="launchApllication" finished-at="2024-01-24T22:50:54 IST" duration-ms="15169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" started-at="2024-01-24T22:50:54 IST" name="loginErrorValidation" finished-at="2024-01-24T22:50:54 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" started-at="2024-01-24T22:50:54 IST" name="closeBrowser" finished-at="2024-01-24T22:50:55 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" started-at="2024-01-24T22:50:55 IST" name="launchApllication" finished-at="2024-01-24T22:50:57 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="submitorder()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" started-at="2024-01-24T22:50:57 IST" name="submitorder" finished-at="2024-01-24T22:51:21 IST" duration-ms="23610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest@5dcb4f5f]" started-at="2024-01-24T22:51:21 IST" name="closeBrowser" finished-at="2024-01-24T22:51:21 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- rahulshettyAcademy.SeleniumFrameworkDesign.ErrorValidationsTest -->
+    </test> <!-- ErrorValidations -->
+    <test started-at="2024-01-24T22:50:39 IST" name="SubmitOrder" finished-at="2024-01-24T22:51:28 IST" duration-ms="49143">
+      <class name="rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:50:39 IST" name="launchApllication" finished-at="2024-01-24T22:50:52 IST" duration-ms="13384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:50:52 IST" name="submitorder" data-provider="getData" finished-at="2024-01-24T22:51:07 IST" duration-ms="14933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Goutham@99, email=bhargavanh28@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:51:07 IST" name="closeBrowser" finished-at="2024-01-24T22:51:08 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:51:08 IST" name="launchApllication" finished-at="2024-01-24T22:51:10 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:51:10 IST" name="submitorder" data-provider="getData" finished-at="2024-01-24T22:51:24 IST" duration-ms="14593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=shetty@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:51:24 IST" name="closeBrowser" finished-at="2024-01-24T22:51:24 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApllication()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:51:24 IST" name="launchApllication" finished-at="2024-01-24T22:51:27 IST" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApllication -->
+        <test-method signature="orderHistory()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:51:27 IST" name="orderHistory" finished-at="2024-01-24T22:51:28 IST" depends-on-methods="rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest.submitorder" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest@598bd2ba]" started-at="2024-01-24T22:51:28 IST" name="closeBrowser" finished-at="2024-01-24T22:51:28 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- rahulshettyAcademy.SeleniumFrameworkDesign.SubmitOrderTest -->
+    </test> <!-- SubmitOrder -->
+  </suite> <!-- Suite -->
+</testng-results>
